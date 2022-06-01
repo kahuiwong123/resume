@@ -1,0 +1,63 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.name {
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 2px;
+}
+
+.contact-info {
+    margin-bottom: 2px;
+}
+
+.underline {
+    width: 100%;
+    border-bottom: 1px solid black;
+}
+
+.address-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.first-line,
+.second-line,
+.third-line {
+    display: flex;
+    justify-content: space-between;
+}
+
+.third-line {
+    margin-bottom: 15px;
+}
+
+.first-line div {
+    font-weight: bold;
+    margin-bottom: 2px;
+}
+
+.objective {
+    margin-bottom: 15px;
+}
+
+.education-1,
+.education-2,
+.education-3 {
+    font-weight: 600;
+    margin-bottom: 2px;
+}
+
+.education-heading {
+    font-weight: bold;
+    margin-bottom: 2px;
+}
+
+.education-1 {
+    display: flex;
+    justify-content: space-between;
+}

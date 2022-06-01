@@ -1,0 +1,59 @@
+.courses-heading,
+.skills-heading,
+.projects-heading,
+.activities-heading,
+.organizations-heading,
+.awards-heading {
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 2px;
+}
+
+.courses,
+.skills {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+.courses div,
+.skills div {
+    margin-bottom: 2px;
+}
+
+.projects div {
+    margin-bottom: 4px;
+    white-space: nowrap;
+}
+
+.activities-list,
+.organizations-list {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.activities-info div,
+.organizations-info div,
+.awards-info div {
+    font-weight: 600;
+    white-space: nowrap;
+}
+
+.activities-info,
+.organizations-info,
+.awards-info {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+}
+
+
+.activities-list div,
+.organizations-list div {
+    margin-bottom: 2px;
+    white-space: nowrap;
+}
+
+.duration {
+    text-align: right;
+}
